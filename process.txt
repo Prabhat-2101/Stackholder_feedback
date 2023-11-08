@@ -1,0 +1,17 @@
+/****   How to run stackholder_feedback project ****/
+
+1. Download the zip file
+
+2. Extract the file and copy all the files in your project folder. 
+
+Note: Make sure your project folder is inside root directory(for xampp xampp/htdocs, for wamp wamp/www, for lamp var/www/HTML)
+
+4.Open PHPMyAdmin (http://localhost/phpmyadmin)
+
+5. Create a database with the name stackholder_feedback
+
+6. Import stackholder_feedback.sql file(given inside the zip package in the SQL file folder)
+
+7. Run the script http://localhost/your_project_name
+
+No need of admin_id and Password because all the review will be shown to everyone.
