@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/bg.jpg");
+    background-size: cover;
+    font-family: 'poppins';
+}
+.content{
+    border-radius: 5px;
+    width: 32%;
+    height: 45%;
+    background-color: beige;
+    box-shadow: 3px 3px 3px black;
+}
+header h3{
+    width: 100%;
+    text-align: center;
+}
+#second{
+    display: block;
+}
+#second .body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#second .body select{
+    font-family: 'poppins';
+    padding: 5px;
+    width: 65%;
+    border-radius: 5px;
+}
+#second footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+#second footer button,input{
+    width: 15%;
+    font-family: 'poppins';
+    color: white;
+    border-radius: 10px 5px;
+    background-color: rgb(23, 20, 20);
+    cursor: pointer;
+}
+@media screen and (min-width:0px) and (max-width:767px) {
+    .content{
+        width: 75%;
+    }
+    #second footer {
+        margin-top: 10px;
+    }
+    #second footer button, input {
+        width: 40%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .content{
+        width: 50%;
+    }
+    #second footer {
+        margin-top: 15px;
+    }
+    #second footer button, input {
+        width: 30%;
+    }
+}
